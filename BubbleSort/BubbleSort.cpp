@@ -68,3 +68,6 @@ void display() {
     cout << "Jumlah pass = " << n - 1 << endl;
     cout << endl;
 }
+int main() {
+
+}
