@@ -4,10 +4,10 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];
-int n;
+int arr[20]; //Deklarasi array a dengan ukuran 20
+int n;       //Deklarasi variable n untuk menyimpan banyaknya elemen
 
-void input() {
+void input() {   //procedur untuk input
 
     while (true) {
         cout << "Masukan banyaknya elemen pada array : ";
@@ -30,7 +30,7 @@ void input() {
 }
 
 void BubbleShortArray() { // procedur untuk mengurutkan array dengan metode bubble sort
-    int pass = 1;
+    int pass = 1;  //step 1
 
     do {
         for (int j = 0; j <= n - 1 - pass; j++) {  //step 2
